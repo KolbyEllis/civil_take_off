@@ -29,13 +29,18 @@
             transform: translateY(0);
         }
     }
-
     
     #hero-1350 {
         box-sizing: border-box;
         overflow: hidden;
         position: relative;
         z-index: 1;
+
+        #hero-1350::before {
+            background-color: transparent;
+            color: transparent;  
+        }
+        
         
         .cs-container {
             width: 100%;
